@@ -1,0 +1,157 @@
+.success-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - var(--navbar-height));
+  position: relative;
+  overflow: hidden;
+}
+
+.success-card {
+  max-width: 600px;
+  width: 100%;
+  padding: var(--space-10) var(--space-6);
+  text-align: center;
+  border-radius: var(--radius-xl);
+  position: relative;
+  z-index: 10;
+}
+
+.success-icon-container {
+  margin-bottom: var(--space-6);
+}
+
+.checkmark {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 3;
+  stroke: var(--color-success);
+  stroke-miterlimit: 10;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 0px var(--color-success);
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark-circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+  stroke: var(--color-success);
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes scale {
+  0%, 100% { transform: none; }
+  50% { transform: scale3d(1.1, 1.1, 1); }
+}
+
+@keyframes fill {
+  100% { box-shadow: inset 0px 0px 0px 40px rgba(16, 185, 129, 0.1); }
+}
+
+.success-title {
+  color: var(--color-success);
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--space-4);
+}
+
+.success-subtitle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-8);
+}
+
+.order-status-box {
+  background: var(--color-bg-hover);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-8);
+  border: 1px solid var(--color-border);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: var(--color-warning-light);
+  color: var(--color-warning);
+  border: 1px solid var(--color-warning);
+}
+
+.status-note {
+  margin-top: var(--space-3);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.success-actions {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+}
+
+/* Confetti */
+.confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  animation: confettiFall 4s linear infinite;
+}
+
+.confetti-0 { background-color: var(--color-primary); }
+.confetti-1 { background-color: var(--color-accent); }
+.confetti-2 { background-color: var(--color-success); }
+.confetti-3 { background-color: var(--color-danger); }
+.confetti-4 { background-color: #a855f7; }
+
+/* Generate random positions and delays using CSS nth-child - normally would use JS, this is an approximation */
+.confetti:nth-child(2n) { width: 8px; height: 12px; }
+.confetti:nth-child(3n) { width: 12px; height: 8px; border-radius: 50%; }
+
+@keyframes confettiFall {
+  0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+/* Give them different horizontal positions */
+.confetti:nth-child(1) { left: 5%; animation-delay: 0s; }
+.confetti:nth-child(2) { left: 15%; animation-delay: 0.5s; }
+.confetti:nth-child(3) { left: 25%; animation-delay: 1s; }
+.confetti:nth-child(4) { left: 35%; animation-delay: 0.2s; }
+.confetti:nth-child(5) { left: 45%; animation-delay: 1.5s; }
+.confetti:nth-child(6) { left: 55%; animation-delay: 0.8s; }
+.confetti:nth-child(7) { left: 65%; animation-delay: 1.2s; }
+.confetti:nth-child(8) { left: 75%; animation-delay: 0.4s; }
+.confetti:nth-child(9) { left: 85%; animation-delay: 0.9s; }
+.confetti:nth-child(10) { left: 95%; animation-delay: 1.8s; }
