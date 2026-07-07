@@ -28,7 +28,7 @@
 .register-bg-circle-1 {
   width: 520px;
   height: 520px;
-  background: radial-gradient(circle, rgba(245, 158, 11, 0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(210, 166, 121, 0.2), transparent 70%);
   top: -200px;
   left: -100px;
   animation: float 9s ease-in-out infinite;
@@ -56,7 +56,7 @@
 .register-card {
   width: 100%;
   max-width: 520px;
-  background: rgba(30, 41, 59, 0.75);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid rgba(51, 65, 85, 0.5);
@@ -75,9 +75,9 @@
   padding: 1px;
   background: linear-gradient(
     135deg,
-    rgba(245, 158, 11, 0.25),
+    rgba(210, 166, 121, 0.25),
     transparent 50%,
-    rgba(59, 130, 246, 0.2)
+    rgba(139, 115, 85, 0.2)
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -189,7 +189,7 @@
   padding-left: 44px;
   padding-right: 14px;
   height: 46px;
-  background: rgba(15, 23, 42, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   font-size: var(--font-size-sm);
@@ -201,8 +201,8 @@
 .register-input-wrap input:focus,
 .register-input-wrap select:focus {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
-  background: rgba(15, 23, 42, 0.7);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.15);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .register-input-wrap:focus-within .register-input-icon {
@@ -217,14 +217,14 @@
 .register-input-wrap .custom-dropdown__header {
   height: 46px;
   padding-left: 44px;
-  background: rgba(15, 23, 42, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--color-border);
 }
 
 .register-input-wrap .custom-dropdown__header.open {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
-  background: rgba(15, 23, 42, 0.7);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.15);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .register-toggle-pw {
@@ -287,7 +287,7 @@
   min-width: 20px;
   border: 2px solid var(--color-border-light);
   border-radius: var(--radius-sm);
-  background: rgba(15, 23, 42, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,7 +313,7 @@
 }
 
 .register-checkbox:focus-visible + .register-checkmark {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.3);
 }
 
 .register-terms-text {

@@ -13,12 +13,12 @@ export default function Terms() {
 
           <section className="legal-section">
             <h2>1. Aceptación de los Términos</h2>
-            <p>Al acceder y utilizar UCE Marketplace, aceptas estar sujeto a estos Términos y Condiciones. Si no estás de acuerdo con alguna parte de los términos, no podrás acceder a la plataforma.</p>
+            <p>Al acceder y utilizar Tienda Digital, aceptas estar sujeto a estos Términos y Condiciones. Si no estás de acuerdo con alguna parte de los términos, no podrás acceder a la plataforma.</p>
           </section>
 
           <section className="legal-section">
             <h2>2. Elegibilidad</h2>
-            <p>El uso de la plataforma está estrictamente limitado a estudiantes, docentes y personal de la Universidad Central del Ecuador. Para registrarte, es obligatorio el uso de un correo electrónico institucional válido que termine en <strong>@uce.edu.ec</strong>.</p>
+            <p>El uso de la plataforma está estrictamente limitado a estudiantes, docentes y personal de la tu mundo emprendedor. Para registrarte, es obligatorio el uso de un correo electrónico institucional válido que termine en <strong>@uce.edu.ec</strong>.</p>
           </section>
 
           <section className="legal-section">
@@ -44,7 +44,7 @@ export default function Terms() {
 
           <section className="legal-section">
             <h2>6. Pagos y Transacciones</h2>
-            <p>Las transacciones se realizan directamente entre compradores y vendedores mediante métodos acordados (transferencia bancaria, Payphone, efectivo). <strong>UCE Marketplace no procesa los pagos internamente y no retiene comisiones.</strong> Por tanto, la plataforma no se hace responsable de disputas, reembolsos o estafas. Recomendamos realizar las entregas en lugares seguros dentro de la universidad.</p>
+            <p>Las transacciones se realizan directamente entre compradores y vendedores mediante métodos acordados (transferencia bancaria, Payphone, efectivo). <strong>Tienda Digital no procesa los pagos internamente y no retiene comisiones.</strong> Por tanto, la plataforma no se hace responsable de disputas, reembolsos o estafas. Recomendamos realizar las entregas en lugares seguros dentro de la universidad.</p>
           </section>
 
           <section className="legal-section">
@@ -54,12 +54,12 @@ export default function Terms() {
 
           <section className="legal-section">
             <h2>8. Propiedad Intelectual</h2>
-            <p>El contenido publicado por los usuarios sigue siendo de su propiedad. Sin embargo, al publicar contenido, otorgas a UCE Marketplace una licencia para utilizarlo, mostrarlo y distribuirlo dentro de la plataforma con fines de promoción u operación del servicio.</p>
+            <p>El contenido publicado por los usuarios sigue siendo de su propiedad. Sin embargo, al publicar contenido, otorgas a Tienda Digital una licencia para utilizarlo, mostrarlo y distribuirlo dentro de la plataforma con fines de promoción u operación del servicio.</p>
           </section>
 
           <section className="legal-section">
             <h2>9. Limitación de Responsabilidad</h2>
-            <p>UCE Marketplace actúa únicamente como un intermediario tecnológico. No garantizamos la calidad, seguridad o legalidad de los artículos publicados, ni la capacidad de los vendedores para vender o de los compradores para pagar.</p>
+            <p>Tienda Digital actúa únicamente como un intermediario tecnológico. No garantizamos la calidad, seguridad o legalidad de los artículos publicados, ni la capacidad de los vendedores para vender o de los compradores para pagar.</p>
           </section>
 
           <section className="legal-section">

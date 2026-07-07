@@ -184,7 +184,7 @@
 
 .catalog__search-bar input:focus {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15), var(--shadow-md);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.15), var(--shadow-md);
 }
 
 .catalog__search-icon {
@@ -307,7 +307,7 @@
 .catalog__card:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary-light);
-  box-shadow: var(--shadow-lg), 0 0 25px rgba(59, 130, 246, 0.15);
+  box-shadow: var(--shadow-lg), 0 0 25px rgba(139, 115, 85, 0.15);
 }
 
 .catalog__grid--list .catalog__card {

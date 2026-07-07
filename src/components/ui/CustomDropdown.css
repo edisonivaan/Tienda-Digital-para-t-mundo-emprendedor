@@ -24,7 +24,7 @@
 
 .custom-dropdown__header.open {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 0 2px rgba(139, 115, 85, 0.1);
 }
 
 .custom-dropdown__arrow {

@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   height: var(--navbar-height);
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(253, 251, 247, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--color-border);
@@ -86,7 +86,7 @@
 
 .nav-link--active {
   color: var(--color-primary-light);
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(139, 115, 85, 0.1);
 }
 
 /* Search */
@@ -208,7 +208,7 @@
   top: calc(100% + 8px);
   right: 0;
   width: 260px;
-  background: rgba(30, 41, 59, 0.95);
+  background: rgba(253, 251, 247, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--color-border);
@@ -398,7 +398,7 @@
     top: var(--navbar-height);
     left: 0;
     right: 0;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(253, 251, 247, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     display: flex;

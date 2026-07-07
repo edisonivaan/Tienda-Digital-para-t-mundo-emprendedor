@@ -35,7 +35,7 @@ export default function Home() {
           <div className="hero-content">
             <h1 className="hero-title animate-fade-in-up">Tienda Digital para tú mundo emprendedor</h1>
             <p className="hero-subtitle animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-              La plataforma de marketplace exclusiva para estudiantes de la Universidad Central del Ecuador
+              La plataforma de marketplace exclusiva para estudiantes de la tu mundo emprendedor
             </p>
             <div className="hero-actions animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <Link to="/catalogo" className="btn btn-primary btn-lg">Explorar Productos</Link>

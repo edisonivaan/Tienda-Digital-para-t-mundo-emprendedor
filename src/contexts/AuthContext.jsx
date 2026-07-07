@@ -88,7 +88,7 @@ export function AuthProvider({ children }) {
     db.create('notifications', {
       userId: newUser.id,
       type: 'system',
-      title: '¡Bienvenido a UCE Marketplace!',
+      title: '¡Bienvenido a Tienda Digital!',
       message: 'Tu cuenta ha sido creada exitosamente. Explora los productos disponibles o empieza a vender.',
       read: false,
     });

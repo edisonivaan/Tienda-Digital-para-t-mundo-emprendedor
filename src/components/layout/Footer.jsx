@@ -10,12 +10,10 @@ export default function Footer() {
           <div className="footer__col">
             <div className="footer__about-brand">
               <span className="footer__about-brand-icon">🎓</span>
-              <span className="footer__about-brand-text">UCE Market</span>
+              <span className="footer__about-brand-text">Tienda Digital</span>
             </div>
             <p className="footer__about-desc">
-              La plataforma de marketplace exclusiva para la comunidad universitaria de la 
-              Universidad Central del Ecuador. Compra, vende y emprende de forma segura 
-              dentro de tu universidad.
+              La plataforma de marketplace exclusiva para tu mundo emprendedor. Compra, vende y emprende de forma segura.
             </p>
             <div className="footer__social">
               <a href="#" className="footer__social-link" title="Facebook" aria-label="Facebook">
@@ -91,9 +89,9 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © 2026 <span className="footer__copyright-highlight">UCE Marketplace</span>. Todos los derechos reservados.
+            © 2026 <span className="footer__copyright-highlight">Tienda Digital</span>. Todos los derechos reservados.
             <br />
-            <span className="footer__copyright-highlight">Universidad Central del Ecuador</span>
+            <span className="footer__copyright-highlight">Para tu mundo emprendedor</span>
           </p>
         </div>
       </div>

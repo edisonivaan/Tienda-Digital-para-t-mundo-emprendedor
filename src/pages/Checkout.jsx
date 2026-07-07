@@ -106,7 +106,7 @@ export default function Checkout() {
                       <p><strong>Banco:</strong> Pichincha</p>
                       <p><strong>Cuenta de Ahorros:</strong> 2205XXXXXX</p>
                       <p><strong>CI:</strong> 17XXXXXXXX</p>
-                      <p><strong>Nombre:</strong> UCE Marketplace</p>
+                      <p><strong>Nombre:</strong> Tienda Digital</p>
                     </div>
                     <div className="payment-reference">
                       <label>Referencia / Comprobante (Opcional)</label>

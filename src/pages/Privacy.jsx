@@ -13,7 +13,7 @@ export default function Privacy() {
 
           <section className="legal-section">
             <h2>1. Información que Recopilamos</h2>
-            <p>En UCE Marketplace recopilamos la siguiente información personal cuando utilizas nuestra plataforma:</p>
+            <p>En Tienda Digital recopilamos la siguiente información personal cuando utilizas nuestra plataforma:</p>
             <ul>
               <li>Correo electrónico institucional (@uce.edu.ec)</li>
               <li>Nombres y apellidos</li>
@@ -27,7 +27,7 @@ export default function Privacy() {
             <h2>2. Uso de la Información</h2>
             <p>Utilizamos tu información personal exclusivamente para los siguientes propósitos:</p>
             <ul>
-              <li>Autenticar tu identidad como estudiante de la Universidad Central del Ecuador.</li>
+              <li>Autenticar tu identidad como estudiante de la tu mundo emprendedor.</li>
               <li>Facilitar el contacto entre compradores y vendedores.</li>
               <li>Procesar y mantener un registro de las transacciones (compras/ventas).</li>
               <li>Mejorar la experiencia de usuario y optimizar la plataforma.</li>
@@ -37,7 +37,7 @@ export default function Privacy() {
 
           <section className="legal-section">
             <h2>3. Protección de Datos</h2>
-            <p>Nos tomamos muy en serio la seguridad de tus datos. UCE Marketplace implementa medidas de seguridad técnicas y organizativas, incluyendo:</p>
+            <p>Nos tomamos muy en serio la seguridad de tus datos. Tienda Digital implementa medidas de seguridad técnicas y organizativas, incluyendo:</p>
             <ul>
               <li>Cifrado de datos en tránsito (SSL/HTTPS).</li>
               <li>Acceso restringido a bases de datos mediante reglas de seguridad estrictas.</li>

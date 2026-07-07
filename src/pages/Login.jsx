@@ -61,7 +61,7 @@ export default function Login() {
           {/* Logo */}
           <div className="login-logo">
             <span className="login-logo-emoji">🎓</span>
-            <span className="login-logo-text">UCE Market</span>
+            <span className="login-logo-text">Tienda Digital</span>
           </div>
 
           <h1 className="login-title">Iniciar Sesión</h1>

@@ -138,11 +138,11 @@ export default function Register() {
           {/* Logo */}
           <div className="register-logo">
             <span className="register-logo-emoji">🎓</span>
-            <span className="register-logo-text">UCE Market</span>
+            <span className="register-logo-text">Tienda Digital</span>
           </div>
 
           <h1 className="register-title">Crear Cuenta</h1>
-          <p className="register-subtitle">Únete a la comunidad universitaria</p>
+          <p className="register-subtitle">Únete a la comunidad emprendedora</p>
 
           {/* Global error */}
           {globalError && (

@@ -30,7 +30,7 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: var(--space-6);
-  background: linear-gradient(to right, #60a5fa, #3b82f6, #fbbf24);
+  background: linear-gradient(to right, var(--color-primary), var(--color-accent), var(--color-primary-dark));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -76,18 +76,19 @@
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 25px rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 25px rgba(139, 115, 85, 0.5);
 }
 
 .btn-outline {
   background: transparent;
-  color: var(--color-text);
-  border: 1px solid var(--color-border-light);
+  color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary);
 }
 
 .btn-outline:hover {
-  background: var(--color-bg-hover);
-  border-color: var(--color-text);
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
 }
 
 .hero-stats {
@@ -229,7 +230,7 @@
   position: absolute;
   top: var(--space-3);
   left: var(--space-3);
-  background: rgba(15, 23, 42, 0.8);
+  background: rgba(253, 251, 247, 0.8);
   backdrop-filter: blur(4px);
   padding: var(--space-1) var(--space-3);
   border-radius: var(--radius-full);
@@ -318,7 +319,7 @@
   padding: var(--space-12) var(--space-6);
   text-align: center;
   border-radius: var(--radius-xl);
-  background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(244, 239, 230, 0.9));
   border: 1px solid var(--color-border);
   position: relative;
   overflow: hidden;

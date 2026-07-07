@@ -80,7 +80,7 @@
 .publish__textarea:focus,
 .publish__select:focus {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.15);
 }
 
 .publish__textarea {
@@ -144,7 +144,7 @@
 .publish__image-zone:hover,
 .publish__image-zone--dragover {
   border-color: var(--color-primary-light);
-  background: rgba(59, 130, 246, 0.05);
+  background: rgba(139, 115, 85, 0.05);
 }
 
 .publish__image-zone-icon {

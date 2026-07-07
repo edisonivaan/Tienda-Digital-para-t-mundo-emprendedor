@@ -37,7 +37,7 @@
 .login-bg-circle-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(245, 158, 11, 0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(210, 166, 121, 0.15), transparent 70%);
   bottom: -100px;
   left: -80px;
   animation: float 10s ease-in-out infinite reverse;
@@ -56,7 +56,7 @@
 .login-card {
   width: 100%;
   max-width: 440px;
-  background: rgba(30, 41, 59, 0.75);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid rgba(51, 65, 85, 0.5);
@@ -75,9 +75,9 @@
   padding: 1px;
   background: linear-gradient(
     135deg,
-    rgba(59, 130, 246, 0.3),
+    rgba(139, 115, 85, 0.3),
     transparent 50%,
-    rgba(245, 158, 11, 0.15)
+    rgba(210, 166, 121, 0.15)
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -183,7 +183,7 @@
   padding-left: 44px;
   padding-right: 14px;
   height: 48px;
-  background: rgba(15, 23, 42, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   font-size: var(--font-size-md);
@@ -194,8 +194,8 @@
 
 .login-input-wrap input:focus {
   border-color: var(--color-primary-light);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
-  background: rgba(15, 23, 42, 0.7);
+  box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.15);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .login-input-wrap input:focus ~ .login-input-icon,
@@ -308,8 +308,8 @@
   gap: var(--space-2);
   margin-top: var(--space-6);
   padding: var(--space-3) var(--space-4);
-  background: rgba(59, 130, 246, 0.08);
-  border: 1px solid rgba(59, 130, 246, 0.15);
+  background: rgba(139, 115, 85, 0.08);
+  border: 1px solid rgba(139, 115, 85, 0.15);
   border-radius: var(--radius-md);
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);

@@ -97,7 +97,7 @@
 .thumbnail-btn.active {
   border-color: var(--color-primary-light);
   opacity: 1;
-  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 10px rgba(139, 115, 85, 0.3);
 }
 
 .thumbnail-btn img {
@@ -161,7 +161,7 @@
 
 .seller-card:hover {
   border-color: var(--color-primary-light);
-  background: rgba(59, 130, 246, 0.05);
+  background: rgba(139, 115, 85, 0.05);
 }
 
 .seller-avatar {
